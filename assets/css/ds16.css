@@ -48,3 +48,16 @@
   max-width: 1290px;
   margin: 0 auto;
 }
+
+.ds16-baners-sitebar {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.ds16-baners-sitebar img {
+  width: 70%;
+  height: 100px;
+  margin: 0 auto;
+  margin-left: 18%;
+}

@@ -66,4 +66,9 @@ function newsup_banner_tabbed_posts()
 
 require 'inc/chif-baner.php';
 
+/**
+ * Банеры в сайтбаре
+ */
+require 'inc/baners.php';
+
 ?>
