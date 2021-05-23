@@ -42,3 +42,9 @@
   background: #e31e25;
   color: #fff;
 }
+
+.wrapper {
+  background-color: #eee;
+  max-width: 1290px;
+  margin: 0 auto;
+}
