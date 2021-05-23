@@ -26,4 +26,44 @@ add_action( 'wp_enqueue_scripts', 'ds16_scripts_style' );
 
 
 
+
+/**	
+ * Для блока руководителя
+ */
+
+function ds16_register_documentation_left_widgets(){
+	register_sidebar( array(
+		'name' => 'Раздел руководителя',
+		'id' => 'ds16_chif',
+		'before_widget' => '',
+		'after_widget' => '',
+		'description' => 'Раздел руководителя',		
+	) );
+}
+add_action( 'widgets_init', 'ds16_register_documentation_left_widgets' );
+
+
+
+/**
+ * Блок руководителя в сайтбаре
+ */
+
+function newsup_banner_tabbed_posts()
+{
+	?>
+		<div class="col-md-4 top-right-area">
+			<div class="ds16-tab-content">
+				<?php dynamic_sidebar( 'ds16_chif' ); ?>
+			</div>
+		</div>
+		
+	<?php
+}
+
+/**
+ * Банер Руководителя
+ */
+
+require 'inc/chif-baner.php';
+
 ?>
