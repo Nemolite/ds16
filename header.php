@@ -22,7 +22,7 @@
 <?php _e( 'Skip to content', 'newsup' ); ?></a>
     <div class="wrapper" id="custom-background-css">
         <header class="mg-headwidget">
-            <!--==================== TOP BAR ====================-->
+          <!--==================== TOP BAR ====================-->
 
             <?php do_action('newsup_action_header_section');  ?>
             <div class="clearfix"></div>
