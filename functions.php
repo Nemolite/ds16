@@ -149,4 +149,66 @@ function newsup_header_section()
 </div>
 <?php 
 }
+
+/**
+ * Секция Документация
+ */
+
+ function ds16_front_page_document_section() {
+    get_template_part( 'inc/documents' ); 
+ } 
+
+ add_action('ds16_action_front_page_document_section', 'ds16_front_page_document_section', 10);
+
+/**
+ * Регистрация меню для раздела документации
+ */
+
+add_action( 'after_setup_theme', 'ds16_register_nav_menu' );
+function ds16_register_nav_menu() {
+	register_nav_menu( 'document_menu_left', 'Document Menu Left' );
+    register_nav_menu( 'document_menu_center', 'Document Menu Center' );
+	register_nav_menu( 'document_menu_right', 'Document Menu Right' );
+
+}
+
+/**	
+ * Для раздела документации, для меню (левый, центральный, правый )
+ */
+
+function ds16_register_doc_left_widgets(){
+	register_sidebar( array(
+		'name' => 'Documentation Left',
+		'id' => 'documentation-left',
+		'before_widget' => '',
+		'after_widget' => '',
+		'description' => 'Документация (левый)',
+	) );
+}
+add_action( 'widgets_init', 'ds16_register_doc_left_widgets' );
+
+function ds16_register_doc_center_widgets(){
+	register_sidebar( array(
+		'name' => 'Documentation Center',
+		'id' => 'documentation-center',
+		'before_widget' => '',
+		'after_widget' => '',
+		'description' => 'Документация (центр)',
+	) );
+}
+add_action( 'widgets_init', 'ds16_register_doc_center_widgets' );
+
+
+function ds16_register_doc_right_widgets(){
+	register_sidebar( array(
+		'name' => 'Documentation Right',
+		'id' => 'documentation-right',
+		'before_widget' => '',
+		'after_widget' => '',
+		'description' => 'Документация (правый)',
+	) );
+}
+add_action( 'widgets_init', 'ds16_register_doc_right_widgets' );
+
+
 ?>

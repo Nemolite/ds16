@@ -9,6 +9,12 @@
  * @package Newsup
  */
 get_header(); ?>
+<?php 
+/**
+ * hock ds16_front_page_document_section -10
+ */
+do_action('ds16_action_front_page_document_section'); 
+?>
 <!--==================== Newsup breadcrumb section ====================-->
             <div id="content" class="container-fluid home">
                 <!--row-->
