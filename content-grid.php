@@ -4,12 +4,13 @@
  * @package Newsup
  */
 ?>
-<div id="grid" class="row" >
-    <div class="ds16-mg-sec-title">
+<div class="ds16-mg-sec-title">
         <div class="mg-sec-title">
             <h4>Новости</h4>
         </div> 
     </div>  
+<div id="grid" class="row" >
+    
      <?php while(have_posts()){ the_post();  
      $newsup_content_layout = esc_attr(get_theme_mod('newsup_content_layout','align-content-right')); ?>
     <div id="post-<?php the_ID(); ?>" <?php if($newsup_content_layout == "grid-fullwidth") { echo post_class('col-md-4'); } else { echo post_class('col-md-6'); } ?>>
