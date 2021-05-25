@@ -79,3 +79,13 @@
   height: auto;
   margin-bottom: 30px;
 }
+
+.ds16-footer-left,
+.ds16-footer-right {
+  color: #fff;
+}
+
+.ds16-footer-left h4,
+.ds16-footer-right h4 {
+  color: #fff;
+}
