@@ -49,6 +49,16 @@ $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
             </div>
         </div>
 <?php } ?>
+<div class="ds16-yandex-map">
+    <div class="container-fluid"> 
+    <div class="ds16-mg-sec-title">
+        <div class="mg-sec-title">
+            <h4>Наш адрес</h4>
+        </div> 
+    </div> 
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa788300af158dcc1aaa609e177ee3130bbc08ce7867e396d25576a968142fa1a&amp;width=100%25&amp;height=350&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+</div>
 <!--==================== FOOTER AREA ====================-->
     <?php $newsup_footer_widget_background = get_theme_mod('newsup_footer_widget_background');
     $newsup_footer_overlay_color = get_theme_mod('newsup_footer_overlay_color'); 
