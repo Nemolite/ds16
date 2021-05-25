@@ -89,3 +89,10 @@
 .ds16-footer-right h4 {
   color: #fff;
 }
+
+.ds16-mg-sec-title {
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}

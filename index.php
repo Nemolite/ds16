@@ -24,7 +24,7 @@ do_action('ds16_action_front_page_document_section');
                     $newsup_content_layout = esc_attr(get_theme_mod('newsup_content_layout','align-content-right'));
                     if($newsup_content_layout == "align-content-left")
                     { ?>
-                    <aside class="col-md-4">
+                    <aside class="col-md-4">                   
                         <?php get_sidebar();?>
                     </aside>
                     <?php }
