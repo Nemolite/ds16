@@ -96,3 +96,9 @@
   padding-right: 15px;
   padding-top: 15px;
 }
+
+.ds16-yandex-map {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}

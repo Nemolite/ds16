@@ -4,7 +4,7 @@
  * @package Newsup
  */
 ?>
-<div class="ds16-mg-sec-title">
+    <div class="ds16-mg-sec-title">
         <div class="mg-sec-title">
             <h4>Новости</h4>
         </div> 
