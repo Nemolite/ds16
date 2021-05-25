@@ -42,7 +42,10 @@ function ds16_register_documentation_left_widgets(){
 }
 add_action( 'widgets_init', 'ds16_register_documentation_left_widgets' );
 
-
+/**
+ * Блок приветствия на главной
+ */
+require 'inc/welcome.php';
 
 /**
  * Блок руководителя в сайтбаре
@@ -210,5 +213,36 @@ function ds16_register_doc_right_widgets(){
 }
 add_action( 'widgets_init', 'ds16_register_doc_right_widgets' );
 
+/**
+ * Для блока информация и объявления
+ */
 
+add_action('init', 'ds16_top_section_info');
+function ds16_top_section_info(){
+	$labels = array(
+		'name'               => 'Информация', 
+		'singular_name'      => 'Информация', 
+		'add_new'            => 'Добавить новую',
+		'add_new_item'       => 'Добавить новую информацию',
+		'edit_item'          => 'Редактировать информацию',
+		'new_item'           => 'Новая информация',
+		'view_item'          => 'Посмотреть информацию',
+		'search_items'       => 'Найти информацию',
+		'not_found'          => 'Информации не найдено',
+		'not_found_in_trash' => 'В корзине информации не найдено',
+		'parent_item_colon'  => '',
+		'menu_name'          => 'Информация'
+	  );
+	 
+	  $args = array(
+		'labels' => $labels,
+		'public' => true, 
+		'show_ui' => true, 
+		'has_archive' => true, 
+		'menu_icon' => 'dashicons-media-document', 
+		'menu_position' => 20, 
+		'supports' => array( 'title', 'editor')
+	);	
+	register_post_type('top_section_info', $args  );
+} 
 ?>
