@@ -49,7 +49,7 @@ $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
             </div>
         </div>
 <?php } ?>
-<div class="ds16-yandex-map">
+<div class="ds16-yandex-map" id="ds16-yandex-map-block">
     <div class="container-fluid"> 
     <div class="ds16-mg-sec-title">
         <div class="mg-sec-title">
