@@ -247,4 +247,18 @@ function ds16_top_section_info(){
 	);	
 	register_post_type('top_section_info', $args  );
 } 
+
+/**
+ * Блок слайдера
+ */
+function ds16_slider_block(){
+	?>
+	<div class="ds16-slider-block">
+	<?php echo do_shortcode('[metaslider id="135"]'); ?>
+	</div>
+
+	<?
+}
+add_action( 'ds16_action_slider_block', 'ds16_slider_block' );
+
 ?>

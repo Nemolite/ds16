@@ -102,3 +102,10 @@
   height: auto;
   margin-bottom: 20px;
 }
+
+.ds16-slider-block {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 50px;
+  background-color: #fff;
+}

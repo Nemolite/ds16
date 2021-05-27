@@ -7,6 +7,7 @@
 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                             <!-- mg-posts-sec mg-posts-modul-6 -->
                             <div class="mg-posts-sec mg-posts-modul-6">
+                            <?php do_action('ds16_action_slider_block');?>
                                 <div class="ds16-mg-sec-title">
                                     <div class="mg-sec-title">
                                         <h4>Новости</h4>

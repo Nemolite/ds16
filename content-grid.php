@@ -4,6 +4,7 @@
  * @package Newsup
  */
 ?>
+<?php do_action('ds16_action_slider_block');?>
     <div class="ds16-mg-sec-title" id="ds16-news-block">
         <div class="mg-sec-title">
             <h4>Новости</h4>
