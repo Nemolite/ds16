@@ -11,9 +11,11 @@
 get_header(); ?>
 <?php 
 /**
- * hock ds16_front_page_document_section -10
+ * hock ds16_front_page_document_section -10 
+ * Временно отключне по просьбе заказчика
+ * 
  */
-do_action('ds16_action_front_page_document_section'); 
+// do_action('ds16_action_front_page_document_section'); 
 ?>
 <!--==================== Newsup breadcrumb section ====================-->
             <div id="content" class="container-fluid home">
