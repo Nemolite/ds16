@@ -261,4 +261,70 @@ function ds16_slider_block(){
 }
 add_action( 'ds16_action_slider_block', 'ds16_slider_block' );
 
+/**
+ * Направление деятельности
+ */
+function ds16_front_page_direction_of_activity_section() {
+    get_template_part( 'inc/direction','activity' ); 
+ } 
+
+
+add_action('ds16_action_front_page_direction_of_activity_section','ds16_front_page_direction_of_activity_section',10); 
+
+/**	
+ * Для раздела Направления деятельности, для меню (1, 2, 3, 4 )
+ */
+
+function ds16_register_direction_1(){
+	register_sidebar( array(
+		'name' => 'Direction-1',
+		'id' => 'direction-1',
+		'before_widget' => '',
+		'after_widget' => '',
+		'description' => 'Направление деятельности 1',
+	) );
+}
+add_action( 'widgets_init', 'ds16_register_direction_1' );
+
+function ds16_register_direction_2(){
+	register_sidebar( array(
+		'name' => 'Direction-2',
+		'id' => 'direction-2',
+		'before_widget' => '',
+		'after_widget' => '',
+		'description' => 'Направление деятельности 2',
+	) );
+}
+add_action( 'widgets_init', 'ds16_register_direction_2' );
+
+
+function ds16_register_direction_3(){
+	register_sidebar( array(
+		'name' => 'Direction-3',
+		'id' => 'direction-3',
+		'before_widget' => '',
+		'after_widget' => '',
+		'description' => 'Направление деятельности 3',
+	) );
+}
+add_action( 'widgets_init', 'ds16_register_direction_3' );
+
+function ds16_register_direction_4(){
+	register_sidebar( array(
+		'name' => 'Direction-4',
+		'id' => 'direction-4',
+		'before_widget' => '',
+		'after_widget' => '',
+		'description' => 'Направление деятельности 4',
+	) );
+}
+add_action( 'widgets_init', 'ds16_register_direction_4' );
+
+
+/**
+ * Банеры в на главной
+ */
+require 'inc/main-baners.php';
+
+
 ?>

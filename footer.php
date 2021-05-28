@@ -9,6 +9,13 @@
 $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
             if($you_missed_enable == true){
 ?>
+<?php 
+/**
+ * hock ds16_front_page_direction_of_activity_section -10 
+ * 
+ */
+do_action('ds16_action_front_page_direction_of_activity_section'); 
+?>
   <div class="container-fluid mr-bot40 mg-posts-sec-inner">
         <div class="missed-inner">
         <div class="row">
