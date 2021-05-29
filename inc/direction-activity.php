@@ -13,16 +13,16 @@
                         <h4>Направления деятельности</h4>
                     </div>                
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <?php dynamic_sidebar( 'direction-1' ); ?>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <?php dynamic_sidebar( 'direction-2' ); ?>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <?php dynamic_sidebar( 'direction-3' ); ?>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <?php dynamic_sidebar( 'direction-4' ); ?>
                 </div>
             </div>
