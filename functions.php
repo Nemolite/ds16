@@ -254,6 +254,9 @@ function ds16_top_section_info(){
 function ds16_slider_block(){
 	?>
 	<div class="ds16-slider-block">
+		<div class="mg-sec-title">
+            <h4>Актуально</h4>
+        </div>  
 	<?php echo do_shortcode('[metaslider id="135"]'); ?>
 	</div>
 
