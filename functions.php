@@ -326,5 +326,64 @@ add_action( 'widgets_init', 'ds16_register_direction_4' );
  */
 require 'inc/main-baners.php';
 
+/**
+ * Важные направления
+ */
+function ds16_front_page_important_section() {
+    get_template_part( 'inc/important' ); 
+ } 
+
+
+add_action('ds16_action_front_page_direction_of_activity_section','ds16_front_page_important_section',10); 
+
+/**	
+ * Для раздела Важные направления, для меню (1, 2, 3, 4 )
+ */
+
+function ds16_register_important_1(){
+	register_sidebar( array(
+		'name' => 'Important-1',
+		'id' => 'important-1',
+		'before_widget' => '',
+		'after_widget' => '',
+		'description' => 'Важные направления 1',
+	) );
+}
+add_action( 'widgets_init', 'ds16_register_important_1' );
+
+function ds16_register_important_2(){
+	register_sidebar( array(
+		'name' => 'Important-2',
+		'id' => 'important-2',
+		'before_widget' => '',
+		'after_widget' => '',
+		'description' => 'Важные направления 2',
+	) );
+}
+add_action( 'widgets_init', 'ds16_register_important_2' );
+
+
+function ds16_register_important_3(){
+	register_sidebar( array(
+		'name' => 'Important-3',
+		'id' => 'important-3',
+		'before_widget' => '',
+		'after_widget' => '',
+		'description' => 'Важные направления 3',
+	) );
+}
+add_action( 'widgets_init', 'ds16_register_important_3' );
+
+function ds16_register_important_4(){
+	register_sidebar( array(
+		'name' => 'Important-4',
+		'id' => 'important-4',
+		'before_widget' => '',
+		'after_widget' => '',
+		'description' => 'Важные направления 4',
+	) );
+}
+add_action( 'widgets_init', 'ds16_register_important_4' );
+
 
 ?>
