@@ -13,16 +13,16 @@
                         <h4>Важные направления</h4>
                     </div>                
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <?php dynamic_sidebar( 'important-1' ); ?>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <?php dynamic_sidebar( 'important-2' ); ?>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <?php dynamic_sidebar( 'important-3' ); ?>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <?php dynamic_sidebar( 'important-4' ); ?>
                 </div>
             </div>
