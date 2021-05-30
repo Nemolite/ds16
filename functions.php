@@ -337,7 +337,7 @@ function ds16_front_page_important_section() {
  } 
 
 
-add_action('ds16_action_front_page_direction_of_activity_section','ds16_front_page_important_section',10); 
+add_action('ds16_action_front_page_direction_of_activity_section','ds16_front_page_important_section',20); 
 
 /**	
  * Для раздела Важные направления, для меню (1, 2, 3, 4 )
