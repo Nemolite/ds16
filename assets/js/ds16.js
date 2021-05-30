@@ -1,4 +1,4 @@
 jQuery(document).ready(function($) {
-    $('.navbar-wp .dropdown-menu > li > a').css('background','#202F5B');
+    $('a, h1, h2, h3, h4, h5, h6').css('font-weight','400');   
  
 }); 
