@@ -141,9 +141,12 @@
 .ds16-new-baners h5 {
   color: #fff;
   text-align: center;
-  font-weight: 500;
 }
 
 .ds16-link {
   text-decoration: none;
+}
+
+.mg-sec-title h4 {
+  font-weight: 400;
 }
