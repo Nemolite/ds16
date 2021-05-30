@@ -78,6 +78,4 @@ function ds16_main_baners_widget_load() {
 }
 add_action( 'widgets_init', 'ds16_main_baners_widget_load' );
 
-
-
 ?>
