@@ -388,5 +388,9 @@ function ds16_register_important_4(){
 }
 add_action( 'widgets_init', 'ds16_register_important_4' );
 
+/**
+ * Новые банеры
+ */
+require 'inc/new-baners.php';
 
 ?>

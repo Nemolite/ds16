@@ -121,3 +121,29 @@
   height: 100px;
   margin: 0 auto;
 }
+
+.ds16-new-baners {
+  width: 100%;
+  height: 100px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 10px;
+  background: rgb(166, 201, 239);
+  background: linear-gradient(
+    60deg,
+    rgba(166, 201, 239, 1) 0%,
+    rgba(17, 81, 211, 1) 70%,
+    rgba(166, 201, 239, 1) 100%
+  );
+}
+
+.ds16-new-baners h5 {
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+
+.ds16-link {
+  text-decoration: none;
+}
