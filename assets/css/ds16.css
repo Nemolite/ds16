@@ -106,9 +106,12 @@
 .ds16-slider-block {
   width: 100%;
   height: auto;
-  margin-left: 15px;
   margin-bottom: 50px;
   background-color: #fff;
+}
+
+#ds16-mg-sec-title {
+  margin-left: 15px;
 }
 
 .ds16-main-baners-sitebar {
