@@ -44,8 +44,14 @@ add_action( 'widgets_init', 'ds16_register_documentation_left_widgets' );
 
 /**
  * Блок приветствия на главной
+ * Временно отключен
  */
-require 'inc/welcome.php';
+// require 'inc/welcome.php';
+
+/**
+ * Блок актуально на главной
+ */
+require 'inc/actual.php';
 
 /**
  * Блок руководителя в сайтбаре
