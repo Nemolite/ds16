@@ -17,6 +17,14 @@ get_header(); ?>
  */
 // do_action('ds16_action_front_page_document_section'); 
 ?>
+<?php 
+/**
+ * hock ds16_front_page_direction_of_activity_section -10
+ * hock ds16_front_page_important_section - 20 
+ * 
+ */
+do_action('ds16_action_front_page_direction_of_activity_section'); 
+?>
 <!--==================== Newsup breadcrumb section ====================-->
             <div id="content" class="container-fluid home">
                 <!--row-->

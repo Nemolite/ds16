@@ -11,7 +11,8 @@ $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
 ?>
 <?php 
 /**
- * hock ds16_front_page_direction_of_activity_section -10 
+ * hock ds16_front_page_direction_of_activity_section -10
+ * hock ds16_front_page_important_section - 20 
  * 
  */
 do_action('ds16_action_front_page_direction_of_activity_section'); 
