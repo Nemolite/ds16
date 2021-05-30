@@ -23,8 +23,10 @@ class chifWidget extends WP_Widget {
 	 */
 	public function widget( $args, $instance ) {
         ?>
-		<div class="first-post">
-        <h3 class="ds16-entry-title">Руководитель</h3>
+		<div class="ds16-first-post">        
+				<div class="mg-sec-title">
+                    <h4>Руководитель</h4>
+                </div> 
 				<img class="ds16-img-chif" src="<?php echo esc_url($instance['img']);?>" class="attachment-colormag-featured-post-medium size-colormag-featured-post-medium wp-post-image" alt="<?php echo __( $instance['title'], 'school2');?>" loading="lazy" title="<?php echo __( $instance['title'], 'school2');?>">
 					<h3 class="ds16-entry-title-chif"><?php echo __( $instance['title'], 'school2');?></h3>	
 			</div>
